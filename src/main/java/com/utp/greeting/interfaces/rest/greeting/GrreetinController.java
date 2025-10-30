@@ -13,6 +13,6 @@ public class GrreetinController {
 
     @GetMapping
     public String greeting(@RequestParam(defaultValue = "World") String name) {
-        return  "Hello " + name + "!";
+        return  "Hello Halloween" + name + "!";
     }
 }
